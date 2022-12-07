@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Areas Basicas</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script type="text/javascript" src="./js/main.js"></script>
+    <link rel="icon" href="./images/icon.gif">
+</head>
+<body>
+    <header class="contTitulo">
+        <h1 class="decoTitulo">Areas basicas</h1>
+    </header>
+    <div class="contenedor">
+        <section>
+            <div class="contTitulo">
+                <h2 class="decoTitulo">Triangulo</h2>
+            </div>
+            <form>
+                <div>
+                    <div class="div-inp">
+                        <label class="label">Base</label>
+                        <div class="div-camp">
+                            <input type="text" id="base"><br>
+                        </div>
+                    </div>
+                    <div class="div-inp">
+                        <label class="label">Altura</label>
+                        <div class="div-camp">
+                            <input type="text" id="altura"><br>
+                        </div>
+                    </div>                    
+                </div>
+                <div class="button">
+                    <button type="button" onclick="areaTrian()">Calcular</button><br>
+                    <textarea id="areaTri" cols="10" rows="1" disabled></textarea>
+                </div>
+                <div style="display: flex; justify-content: center; align-items: center; height: 25ch;">
+                    <img src="./images/cuchillo.gif" alt="" style="width: 25%;">
+                </div>
+            </form>
+        </section>
+        <section>
+            <div class="contTitulo">
+                <h2 class="decoTitulo">Circulo</h2>
+            </div>
+            <form>
+                <div class="div-inp">
+                    <label class="label">Radio</label>
+                    <div class="div-camp">
+                        <input type="text" id="radio"><br><br>
+                    </div>
+                </div>
+                <div class="button">
+                    <button type="button" onclick="areaCircu()">Calcular</button><br>
+                    <textarea id="areaCir" cols="10" rows="1" disabled></textarea>
+                </div>
+                <div style="display: flex; justify-content: center; align-items: center; height: 25ch;">
+                    <img src="./images/cerdito1.gif" alt="a" style="width: 25%;">
+                </div>
+            </form>
+        </section>
+        <section>
+            <div class="contTitulo">
+                <h2 class="decoTitulo">Cuadrado</h2>
+            </div>
+            <form>
+                <div class="div-inp">
+                    <label class="label">Lado</label>
+                    <div class="div-camp">
+                        <input type="text" id="lado"><br><br>
+                    </div>
+                </div>
+                <div class="button">
+                    <button type="button" onclick="areaCuad()">Calcular</button><br>
+                    <textarea id="areaCua" cols="10" rows="1" disabled></textarea>
+                </div>
+                <div style="display: flex; justify-content: center; align-items: center; height: 25ch;">
+                    <img src="./images/pastel.gif" alt="" style="width: 25%;">
+                </div>
+            </form>
+        </section>
+        <section>
+            <div class="contTitulo">
+                <h2 class="decoTitulo">Rectangulo</h2>
+            </div>
+            <form>
+                <div>
+                    <div class="div-inp">
+                        <label class="label">Base</label>
+                        <div class="div-camp">
+                            <input type="text" id="baseR"><br>
+                        </div>
+                    </div>
+                    <div class="div-inp">
+                        <label class="label">Altura</label>
+                        <div class="div-camp">
+                            <input type="text" id="alturaR"><br><br>
+                        </div>
+                    </div>
+                </div>
+                <div class="button">
+                    <button type="button" onclick="areaRecta()">Calcular</button><br>
+                    <textarea id="areaRec" cols="10" rows="1" disabled></textarea>
+                </div>
+                <div style="display: flex; justify-content: center; align-items: center; height: 25ch;">
+                    <img src="./images/futu.gif" alt="" style="width: 25%;">
+                </div>
+            </form>
+        </section>
+    </div>
+</body>
+</html>
