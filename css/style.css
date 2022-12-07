@@ -50,6 +50,10 @@ button:hover {
     background-color: #919191;
 }
 
+a {
+    text-decoration: none;
+}
+
 .decoTitulo{
     margin: 0;
     display: inline;
