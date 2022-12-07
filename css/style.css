@@ -13,6 +13,7 @@ section {
     border: #6f6f6f 1em solid;
     border-radius: 1em;
     height: 55vh;
+    margin-bottom: 5%;
 }
 
 textarea {
