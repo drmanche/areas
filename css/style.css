@@ -48,6 +48,7 @@ button {
 button:hover {
     color: wheat;
     background-color: #919191;
+    cursor: pointer;
 }
 
 a {
