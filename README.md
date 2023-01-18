@@ -1,1 +1,3 @@
-Calcula areas de las figuras basicas, solicitando valores minimos requeridos por las formulas geometricas basicas.
+# Calcula areas de las figuras basicas
+
+Solicita al usuario valores minimos requeridos por las formulas geometricas basicas.
